@@ -1,0 +1,8 @@
+<div class="mainDiv">
+    <h1>MY THOUGHTS</h1>
+    <button class="newPost" (click)="showForm()"><span class="newStyle">N E W</span>  T H O U G H T</button>
+    <div class="postsDiv">
+    <post (delete)="onDelete($event)" *ngFor="let post of posts; let i = index" [post]="post"></post>
+    </div>
+    <post-form (submitted)="onSubmit($event)" *ngIf=formDisplay></post-form>
+</div>

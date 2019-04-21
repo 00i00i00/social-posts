@@ -1,0 +1,8 @@
+<div class="formModal" *ngIf=modalDisplay>
+<div class="formDiv">
+    <button class="closeForm" (click)="closeDiv()"><i class="material-icons">clear</i></button>
+    <input class="title" [(ngModel)]="titleInput" placeholder="Title" />
+    <textarea class="body" [(ngModel)]="bodyInput" placeholder="Thought" [ngClass]="body"></textarea>
+    <button class="addBtn" (click)="addPost()"><span class="addStyle">ADD</span>POST</button>
+</div>
+</div>

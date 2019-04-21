@@ -1,0 +1,90 @@
+.formDiv {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    background-color: #f4f4f4;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 7px;
+    width: 85%;
+
+}
+
+.title, .body{
+    border: 1.5px solid #c9c7c7;
+    background-color: #f4f4f4;
+    color: #474849;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: 'EB Garamond', serif;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+
+}
+
+.title {
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.formModal {
+    position: fixed;
+    top: 0px;
+    left:  0px;
+    z-index:  1;
+    background:  rgba(0,0,0,0.8);
+    width:  100%;
+    height: 100%;
+}
+
+
+.addBtn {
+    border: solid 1.5px #f7db36;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    color: #474849;
+    padding: 10px;
+    font-family: 'Oswald', serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 20px;
+
+}
+
+.body:focus {
+height: 400px;
+}
+
+.closeForm,.material-icons  {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f4f4f4;    
+    margin: 3px;
+    border: none;
+}
+  
+.material-icons {
+    font-size: 1.5rem;
+    color: #c9c9c9;
+}
+
+.addStyle {
+    font-weight: 400;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+.formDiv {
+    width: 60%;
+}
+
+
+}
+
+
