@@ -55,7 +55,7 @@
 
 }
 
-.body:focus {
+.title:focus + .body, .body:focus {
 height: 400px;
 }
 
