@@ -1,3 +1,13 @@
+ANGULAR SOCIAL POSTS LAB 
+Task: Use components to construct a list of small posts, similar to Twitter.    
+
+What does the application do?   
+1. Displays a list of posts including a subject line and a body for each.  
+2. The new post form is initially hidden. Clicking the “New Post” button reveals the form.  
+3. Submitting the form adds a new post to the top of the list and hides the form.  
+4. Form inputs expand when focused.  
+
+
 # SocialPosts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
